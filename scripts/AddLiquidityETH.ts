@@ -48,7 +48,7 @@ const TOKEN_HOLDER = "0xf584F8728B874a6a5c7A8d4d387C9aae9172D621";
       amountETHMin,
         impersonatedSigner.address,
         deadline,
-        // {value : amountETHDesired}
+        {value : amountETHDesired}
     );
 
     const usdcBalAfter = await USDC_Contract.balanceOf(impersonatedSigner);
